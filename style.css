@@ -1,0 +1,45 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background: #051e33;
+    color: white;
+    margin: 0;
+    padding: 0;
+    transition: background 0.5s ease-in-out;
+}
+
+.container {
+    margin-top: 50px;
+}
+
+input {
+    padding: 10px;
+    width: 250px;
+    border-radius: 5px;
+    border: none;
+    font-size: 16px;
+}
+
+button {
+    padding: 10px;
+    margin: 10px;
+    border-radius: 5px;
+    border: none;
+    background-color: #ffcc00;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #ffdb4d;
+}
+
+#weather-info {
+    margin-top: 20px;
+    font-size: 18px;
+}
+
+img {
+    width: 80px;
+    height: 80px;
+}
